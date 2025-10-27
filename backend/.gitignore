@@ -1,0 +1,67 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables (SENSITIVE)
+.env
+.env.local
+.env.*.local
+
+# Vector databases (LARGE FILES)
+.vectordb/
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB data
+chroma.sqlite3
+chroma/
+
+# Generated pitch decks (TEMPORARY FILES)
+temp_pitch_decks/
+*.pptx
+*.txt
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python version
+.python-version
+
+# UV lock file (keep pyproject.toml, ignore lock)
+uv.lock
+
+# Output files
+output.txt
+dedalus_output.txt

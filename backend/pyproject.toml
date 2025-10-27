@@ -1,0 +1,23 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.2",
+    "chromadb>=1.2.1",
+    "dedalus-labs>=0.1.0a9",
+    "fastapi>=0.120.0",
+    "fastembed>=0.7.3",
+    "fpdf2>=2.8.4",
+    "genai>=2.1.0",
+    "gitpython>=3.1.45",
+    "google-generativeai>=0.8.5",
+    "httpx>=0.28.1",
+    "lxml>=6.0.2",
+    "playwright>=1.55.0",
+    "python-dotenv>=1.1.1",
+    "python-pptx>=1.0.2",
+    "uvicorn>=0.38.0",
+]
